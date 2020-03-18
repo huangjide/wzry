@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="save" content="history">
+<meta http-equiv="Page-Enter" content="blendTrans(transtion=15)">
+<meta http-equiv="Page-Exit" content="blendTrans(transtion=3)">
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+<title>王者荣耀账号表格生成器</title>
+<meta name="keywords" content="王者荣耀手游交易平台">
+<meta name="description" content="王者荣耀手游交易平台">
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" name="viewport"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+  <meta name="format-detection" content="telephone=no"> 
+
+
+  <script src="./static/jquery-1.9.1.js"></script>
+  <script src="./static/layer.js"></script><link rel="stylesheet" href="./static/layer.css" id="layuicss-skinlayercss">
+  <script type="text/javascript" src="./static/jquery.SuperSlide.2.1.1.js"></script>
+  <script type="text/javascript" src="./static/index.js"></script>
+  <script src="./static/jquery-1.9.1.min.js"></script> 
+  <script src="./static/jquery.superslide.2.1.2.js"></script> 
+  <script src="./static/jquery.placeholder.min.js"></script> 
+  <script src="./static/comon.js"></script> 
+    <script src="./static/Common.js"></script>
+  <script src="./static/Common1.js" type="text/javascript"></script>
+  <script type="text/javascript" src="./static/jquery.rotate.min.js"></script> 
+
+  <link rel="stylesheet" href="./static/layer(1).css" id="layuicss-skinshoplayercss">
+  <link rel="stylesheet" href="./static/styles.css"> 
+   
+  
+</head>
+<body> 
+  <div class="container"> 
+   <div class="biaodan1"> 
+    <div class="tit1">
+    王者荣耀账号表格生成器
+    </div>
+    <form action="" method="post"> 
+     <dl> 
+      <dt>
+       区服系统选项：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="苹果QQ" name="r1">苹果QQ </label> 
+      </dd> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="苹果微信" name="r1">苹果微信 </label> 
+      </dd> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="安卓QQ" name="r1">安卓QQ </label> 
+      </dd> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="安卓微信" name="r1">安卓微信 </label> 
+      </dd> 
+         
+        <input name="HF_pingtai" type="hidden" id="HF_pingtai">
+
+      <dt>
+       账号来源：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="自己注册" name="r2">自己注册 </label> 
+      </dd> 
+      <dd> 
+       <label> <input class="ipt" type="radio" value="网站购买" name="r2">网站购买 </label> 
+      </dd> 
+         <input name="HF_scoure" type="hidden" id="HF_scoure">
+      <dt>
+       贵族等级：
+      </dt> 
+      <dd> 
+       <label>VIP <input class="ipt txt txt1" type="text" name="r3" id="r3"><span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       贵族积分：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r32" id="r32"><span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       英雄数量：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r4" id="r4">个<span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       皮肤数量：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r5" id="r5">个<span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       五级铭文数量：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r6" id="r6">个<span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       成就等级：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r7" id="r7">个<span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       王者印记：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" name="r8" id="r8">个<span>请输入数字</span> </label> 
+      </dd> 
+      <dt>
+       当前段位：
+      </dt> 
+      <dd> 
+       <label> <input class="ipt txt txt1" type="text" style="width:100px;" name="r9" id="r9"><span>例：钻石4</span> </label> 
+      </dd> 
+
+      <dt>
+       区服：
+      </dt> 
+      <dd> 
+       <label><input class="ipt txt txt1" type="text" name="r666" id="r666" style="width:80px;"><span>请输入区服</span> </label> 
+      </dd> 
+
+
+      <input class="myad" type="hidden" cont="限定英雄" name="zd[]" value="137"> 
+      <dt>
+       限定英雄：
+      </dt> 
+                
+
+      <dd> 
+       <span class="xianying"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="韩信">韩信 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xianying"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="娜可露露">娜可露露 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xianying"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="橘右京">橘右京 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xianying"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="不知火舞">不知火舞 </label></span> 
+      </dd>
+
+
+         <input class="myad" type="hidden" cont="赛季皮肤" name="zd[]" value="137"> 
+      <dt>
+       赛季皮肤：
+      </dt> 
+                
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S3">S3 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S4">S4 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S5">S5 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S6">S6 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S7">S7 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S8">S8 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S9">S9 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S10">S10 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S11">S11 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S12">S12 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S13">S13 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S14">S14 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S15">S15 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S16">S16 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="saipi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="S17">S17 </label></span> 
+      </dd>
+
+
+         <input class="myad" type="hidden" cont="星原皮肤" name="zd[]" value="137"> 
+      <dt>
+       星元皮肤：
+      </dt> 
+                
+
+      <dd> 
+       <span class="xingpi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="幻海之心">幻海之心 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xingpi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="金色仲夏夜">金色仲夏夜 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xingpi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="幽冥火">幽冥火 </label></span> 
+      </dd>
+
+
+      <dd> 
+       <span class="xingpi"><label> <input class="ipt txt next137" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="幽冥之眼">幽冥之眼 </label></span> 
+      </dd>
+
+
+
+
+      <input class="myad" type="hidden" cont="荣耀水晶详细" name="zd[]" value="1"> 
+
+      <dt>
+       荣耀水晶详细：
+      </dt> 
+         
+                
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="无限飓风号">无限飓风号 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="300" data-price_pw="350" data-price_aq="300" data-price_aw="350" value="全息碎影">全息碎影 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="250" data-price_pw="300" data-price_aq="250" data-price_aw="300" value="武则天">武则天 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="200" data-price_pw="250" data-price_aq="200" data-price_aw="250" value="天鹅之梦">天鹅之梦 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="200" data-price_pw="200" data-price_aq="200" data-price_aw="200" value="大秦宣太后">大秦宣太后 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="200" data-price_pw="200" data-price_aq="200" data-price_aw="200" value="杀手不太冷">杀手不太冷 </label></span> 
+      </dd>
+
+                    
+
+      <dd> 
+       <span class="rong"><label> <input class="ipt txt next1" type="checkbox" name="r3" data-price_pq="250" data-price_pw="300" data-price_aq="250" data-price_aw="300" value="星空梦想">星空梦想 </label></span> 
+      </dd>
+
+                    
+      
+      <input class="myad" type="hidden" cont="限定皮肤" name="zd[]" value="2"> 
+
+
+      <dt>
+       限定皮肤：
+      </dt> 
+         
+                
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="100" data-price_pw="120" data-price_aq="100" data-price_aw="120" value="冰封战神">冰封战神 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="200" data-price_pw="230" data-price_aq="200" data-price_aw="230" value="凤求凰">凤求凰 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="100" data-price_pw="120" data-price_aq="100" data-price_aw="120" value="天魔缭乱">天魔缭乱 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="100" data-price_pw="120" data-price_aq="100" data-price_aw="120" value="至尊宝">至尊宝 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="白虎志">白虎志 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="玄武志">玄武志 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="美猴王">美猴王 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="瑞麟志">瑞麟志 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="青龙志">青龙志 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="朱雀志">朱雀志 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="霸王别姬（女）">霸王别姬（女） </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="大圣取亲">大圣取亲 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="一生所爱">一生所爱 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="天狼狩猎者">天狼狩猎者 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="冰霜恋舞曲">冰霜恋舞曲 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="霸王别姬（男）">霸王别姬（男） </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="逐梦之翼">逐梦之翼 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="逐梦之光">逐梦之光 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="逐梦之影">逐梦之影 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="逐梦之音">逐梦之音 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="逐梦之星">逐梦之星 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="10" data-price_aq="10" data-price_aw="10" value="圣诞老人">圣诞老人 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="蜜橘之夏">蜜橘之夏 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="梅西">梅西 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="梁祝">梁祝 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="纯白花嫁">纯白花嫁 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="10" data-price_aq="10" data-price_aw="10" value="真爱至上">真爱至上 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="20" data-price_pw="30" data-price_aq="20" data-price_aw="30" value="青春决赛季">青春决赛季 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="20" data-price_pw="30" data-price_aq="20" data-price_aw="30" value="武陵仙君">武陵仙君 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="10" data-price_aq="10" data-price_aw="10" value="热情桑巴">热情桑巴 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="20" data-price_pw="20" data-price_aq="20" data-price_aw="20" value="辉光之辰">辉光之辰 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="20" data-price_pw="30" data-price_aq="20" data-price_aw="30" value="永耀之星">永耀之星 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="20" data-price_aq="10" data-price_aw="20" value="云端筑梦师">云端筑梦师 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="凤凰于飞">凤凰于飞 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="神奇女侠">神奇女侠 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="30" data-price_pw="30" data-price_aq="30" data-price_aw="30" value="魔法小厨娘">魔法小厨娘 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="10" data-price_pw="10" data-price_aq="10" data-price_aw="10" value="引擎之心">引擎之心 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="死亡摇滚">死亡摇滚 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="职业王牌">职业王牌 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="嘻哈天王">嘻哈天王 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="死神来了">死神来了 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="华尔街大亨">华尔街大亨 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="天堂福音">天堂福音 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="仙境爱丽丝">仙境爱丽丝 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="纽约教父">纽约教父 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="舞狮东方">舞狮东方 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="幻想奇妙夜">幻想奇妙夜 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="化身博士">化身博士 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="火炮千金">火炮千金 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="黑猫爱糖果">黑猫爱糖果 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="进击墨子号">进击墨子号 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="游园惊梦">游园惊梦 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="王者之锤">王者之锤 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="奇迹圣诞">奇迹圣诞 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="驯魔猎人">驯魔猎人 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="赤莲之焰">赤莲之焰 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="遇见飞天">遇见飞天 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="白昼王子">白昼王子 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="蓝屏警告">蓝屏警告 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="天狼狩猎者">天狼狩猎者 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="猎兽之王">猎兽之王 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="xianpi"><label> <input class="ipt txt next2" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="太乙真人">太乙真人 </label></span> 
+      </dd>
+
+      
+      
+      
+      
+      
+      <input class="myad" type="hidden" cont="史诗皮肤" name="zd[]" value="118"> 
+      <dt>
+       史诗皮肤：
+      </dt> 
+
+         
+                
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="无限星赏官">无限星赏官 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="猫狗日记（孙策）">猫狗日记（孙策） </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="猫狗日记（大乔）">猫狗日记（大乔） </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="暗夜贵公子">暗夜贵公子 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="星夜王子">星夜王子 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="功夫厨神">功夫厨神 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="节奏热浪">节奏热浪 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="摇滚巨星">摇滚巨星 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="冰冠公主">冰冠公主 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="龙骑士">龙骑士 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="电玩小子">电玩小子 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="偶像歌手">偶像歌手 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="暗夜猫娘">暗夜猫娘 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="苍穹之光">苍穹之光 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="白龙吟">白龙吟 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="水晶猎龙者">水晶猎龙者 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="暗隐猎兽者">暗隐猎兽者 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="特工魅影">特工魅影 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="逐浪之夏">逐浪之夏 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="天才门将">天才门将 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="舞动绿茵">舞动绿茵 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="心灵骇客">心灵骇客 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="心灵战警">心灵战警 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="鬼剑武藏">鬼剑武藏 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="千年之狐">千年之狐 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="乘风破浪">乘风破浪 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="缤纷独角兽">缤纷独角兽 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="末日机甲（吕布）">末日机甲（吕布） </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="幽灵船长">幽灵船长 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="圣诞恋歌">圣诞恋歌 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="圣诞狂欢">圣诞狂欢 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="黄金分割率">黄金分割率 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="紫霞仙子">紫霞仙子 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="德古拉伯爵">德古拉伯爵 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="魅力维加斯">魅力维加斯 </label></span> 
+      </dd>
+
+      <dd> 
+       <span class="shi"><label> <input class="ipt txt next118" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="曙光守护者">曙光守护者 </label></span> 
+      </dd>
+
+
+    
+
+      <input class="myad" type="hidden" cont="传说皮肤" name="zd[]" value="136"> 
+      <dt>
+       传说皮肤：
+      </dt> 
+         
+                
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="天狼征服者">天狼征服者 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="黄金白羊座">黄金白羊座 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="久胜战神">久胜战神 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="云霓雀翎">云霓雀翎 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="黄金狮子座">黄金狮子座 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="冠军飞将">冠军飞将 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="胖达荣荣">胖达荣荣 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="30" data-price_pw="50" data-price_aq="30" data-price_aw="50" value="黄金射手座">黄金射手座 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="30" data-price_pw="30" data-price_aq="30" data-price_aw="30" value="海洋之心">海洋之心 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="地狱火">地狱火 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="仲夏夜之梦">仲夏夜之梦 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="末日机甲（孙尚香）">末日机甲（孙尚香） </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="地狱之眼">地狱之眼 </label></span> 
+      </dd>
+
+
+
+      <dd> 
+       <span class="chuan"><label> <input class="ipt txt next136" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="超时空战士">超时空战士 </label></span> 
+      </dd>
+
+
+
+      <input class="myad" type="hidden" cont="内测英雄皮肤" name="zd[]" value="138"> 
+      <dt>
+       内测英雄皮肤：
+      </dt> 
+
+         
+                
+      <dd> 
+       <span class="nei"><label> <input class="ipt txt next138" type="checkbox" name="r3" data-price_pq="0" data-price_pw="0" data-price_aq="0" data-price_aw="0" value="玩趣恶龙">玩趣恶龙 </label> </span>
+      </dd>
+
+      <dd> 
+       <span class="nei"><label> <input class="ipt txt next138" type="checkbox" name="r3" data-price_pq="350" data-price_pw="400" data-price_aq="350" data-price_aw="400" value="蔷薇恋人">蔷薇恋人 </label> </span>
+      </dd>
+
+      <dd> 
+       <span class="nei"><label> <input class="ipt txt next138" type="checkbox" name="r3" data-price_pq="300" data-price_pw="350" data-price_aq="300" data-price_aw="350" value="优雅恋人">优雅恋人 </label> </span>
+      </dd>
+
+      <dd> 
+       <span class="nei"><label> <input class="ipt txt next138" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="300" data-price_aw="400" value="艾琳（有皮肤）">艾琳（有皮肤） </label> </span>
+      </dd>
+
+      <dd> 
+       <span class="nei"><label> <input class="ipt txt next138" type="checkbox" name="r3" data-price_pq="" data-price_pw="" data-price_aq="" data-price_aw="" value="艾琳（无皮肤）">艾琳（无皮肤） </label> </span>
+      </dd>
+
+
+
+      
+      <dd class="zh"> 
+       <div class="btn">
+       <a class="mess-btn" style="color:#fff;" onclick="javascript:WebMessage();">提交</a>
+       </div> 
+      </dd> 
+     </dl> 
+    </form>  
+    <div class="tit2">
+     生成结果如下：
+    </div> 
+    <textarea name="" cols="30" rows="10" id="nr"></textarea> 
+    <div class="btn2">
+     我要复制
+    </div> 
+   </div> 
+  </div>  
+ 
+<div class="layui-layer-move"></div></body></html>
